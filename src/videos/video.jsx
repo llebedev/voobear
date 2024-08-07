@@ -37,7 +37,7 @@ export default function videos() {
 					<a href="/">
 						<img
 							className="animate__animated animate__bounceInDown logo1"
-							src="/logo1.png"
+							src="/voobear/logo1.png"
 							alt=""
 						/>
 					</a>

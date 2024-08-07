@@ -67,7 +67,7 @@ function App() {
 				{data().map((item) => (
 					<div className="animate__animated animate__slideInDown video1">
 						<div className="titles">
-							<a href={"/" + "video" + "/" + item.id + item.video}>
+							<a href={"video" + "/" + item.id + item.video}>
 								<img src={item.image} alt="" />
 							</a>
 							<div className="avatar">

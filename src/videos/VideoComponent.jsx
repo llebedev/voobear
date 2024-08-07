@@ -4,7 +4,11 @@ export default function VideoComponent(props) {
 		<>
 			<link rel="preload" href={"/" + props.data} as="video" />
 			<Suspense fallback={<div>Загрузка...</div>}>
-				<video preload="metadata" controls src={"/" + props.data}></video>
+				<video
+					preload="metadata"
+					controls
+					src={"/voobear" + "/" + props.data}
+				></video>
 			</Suspense>
 		</>
 	)
