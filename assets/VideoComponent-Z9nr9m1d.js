@@ -1,1 +1,0 @@
-import{c as r,s as l,a as n,S as o,t}from"./index-Dy4As2K-.js";var d=t("<link rel=preload as=video>"),s=t("<video preload=metadata controls>"),c=t("<div>Загрузка...");function m(a){return[(()=>{var e=d();return r(()=>l(e,"href","/"+a.data)),e})(),n(o,{get fallback(){return c()},get children(){var e=s();return r(()=>l(e,"src","/"+a.data)),e}})]}export{m as default};
