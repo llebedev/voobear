@@ -1,0 +1,14 @@
+* {
+	transition: 0.2s;
+}
+
+.player {
+	margin-left: 30%;
+}
+.player video {
+	border-radius: 15px;
+}
+
+.infoVideo {
+	margin-left: 15%;
+}

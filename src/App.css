@@ -1,0 +1,165 @@
+#root {
+	max-width: 1280px;
+	padding: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sidebar {
+	font-family: "Rubik";
+	position: fixed;
+
+	justify-content: flex-start; /* Выравнивание по горизонтали */
+	align-items: flex-start; /* Выравнивание по вертикали */
+
+	width: 250px;
+	height: 50rem;
+
+	background-color: #1d1d1d;
+	border-radius: 15px;
+	transition: 1.2s;
+}
+
+.menu {
+	font-size: 25px;
+	margin-left: 0.3rem;
+}
+
+.logo1 {
+	margin-left: 0.7rem;
+	transition: 0.6s;
+	animation-duration: 2.3s;
+}
+
+.logo1:hover {
+	transform: scale(1.1);
+}
+
+.sidebar .sidebarBtn {
+	background-color: #242424;
+	border-radius: 15px;
+	text-decoration: none;
+	margin-left: 1rem;
+	font-size: 20px;
+	transition: 0.5s;
+	display: flex;
+}
+.sidebar button:hover {
+	background-color: #1b1a1a;
+}
+
+.sidebar button {
+	width: 200px;
+	height: 60px;
+}
+
+.active {
+	border-radius: 15px;
+	text-decoration: none;
+	margin-left: 1rem;
+	font-size: 20px;
+	transition: 0.5s;
+	display: flex;
+	background-color: #3b3737;
+}
+
+.sidebar p {
+	margin-left: 1.5rem;
+}
+
+.categories i {
+	margin-top: 0.1rem;
+}
+
+.closeButton {
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+	font-size: 30px;
+}
+
+.settingsButton {
+	margin-left: 1rem;
+	margin-top: 21rem;
+	font-size: 30px;
+}
+
+.settingsButton i:hover {
+	transform: rotate(-0.25turn) scale(1.2);
+}
+
+.categories {
+	margin-top: 1rem;
+}
+
+main {
+	display: flex;
+}
+
+.videos {
+	margin-left: 30%;
+	display: flex;
+	height: 50%;
+}
+.videos img {
+	border-radius: 15px;
+}
+
+.video1 {
+	margin-left: 20px;
+	background-color: #1d1d1d;
+	padding: 1rem;
+	border-radius: 15px;
+	animation-duration: 0.5s;
+}
+
+.info {
+	display: flex;
+	color: rgb(180, 162, 162);
+	margin-left: 3.2rem;
+	white-space: nowrap;
+}
+
+.info i {
+	margin-top: 0.6rem;
+	margin-left: 0.5rem;
+	font-size: 7px;
+}
+.timeUp {
+	margin-left: 0.7rem;
+}
+.chanelName {
+	color: rgb(180, 162, 162);
+	margin-top: 0.2rem;
+	margin-left: 3.2rem;
+	display: flex;
+}
+
+.chanelName i {
+	margin-left: 0.4rem;
+	margin-top: 0.3rem;
+	font-size: 14px;
+}
+
+.avatar {
+	display: flex;
+	position: absolute;
+	margin-top: 0.2rem;
+}
+.avatar img {
+	border-radius: 20px;
+}
+
+.title {
+	margin-left: 3.2rem;
+	margin-top: 0.5rem;
+	overflow: hidden;
+	width: 280px;
+	height: auto;
+	-webkit-line-clamp: 2;
+
+	display: -webkit-box; /* Для поддержки многострочного обрезания */
+	-webkit-box-orient: vertical; /* Вертикальная ориентация для обрезки */
+	text-overflow: ellipsis;
+}
