@@ -1,1 +1,0 @@
-import{c as r,s as o,a as l,S as n,t}from"./index-Bn6jAV6R.js";var d=t("<link rel=preload as=video>"),s=t("<video preload=metadata controls>"),c=t("<div>Загрузка...");function m(a){return[(()=>{var e=d();return r(()=>o(e,"href","/"+a.data)),e})(),l(n,{get fallback(){return c()},get children(){var e=s();return r(()=>o(e,"src","/voobear/"+a.data)),e}})]}export{m as default};
