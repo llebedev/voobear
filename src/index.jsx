@@ -11,7 +11,7 @@ const root = document.getElementById("root")
 render(
 	() => (
 		<Router>
-			<Route path="/" component={App} />
+			<Route path="/voobear/" component={App} />
 			<Route path="/video/:id/:video" component={videos} />
 		</Router>
 	),

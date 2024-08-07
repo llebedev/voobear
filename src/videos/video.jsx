@@ -12,7 +12,7 @@ export default function videos() {
 	onMount(async () => {
 		try {
 			const response = await fetch(
-				"https://x2qz3k01a5ri.share.zrok.io/api/data"
+				"https://my0yaokth97n.share.zrok.io/api/data"
 			)
 
 			// Проверьте, состояние ответа

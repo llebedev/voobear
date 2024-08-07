@@ -8,7 +8,7 @@ function App() {
 	onMount(async () => {
 		try {
 			const response = await fetch(
-				"https://x2qz3k01a5ri.share.zrok.io/api/data"
+				"https://my0yaokth97n.share.zrok.io/api/data"
 			)
 
 			// Проверьте, состояние ответа
@@ -31,7 +31,7 @@ function App() {
 					<a href="/">
 						<img
 							className="animate__animated animate__bounceInDown logo1"
-							src="/logo1.png"
+							src="/voobear/logo1.png"
 							alt=""
 						/>
 					</a>
@@ -71,7 +71,12 @@ function App() {
 								<img src={item.image} alt="" />
 							</a>
 							<div className="avatar">
-								<img src="/chanel1.jpg" alt="" width="42px" height="42px" />
+								<img
+									src="/voobear/chanel1.jpg"
+									alt=""
+									width="42px"
+									height="42px"
+								/>
 							</div>
 							<p className="title">{item.title}</p>
 						</div>
