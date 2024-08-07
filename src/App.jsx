@@ -28,7 +28,7 @@ function App() {
 			<div className="animate__animated animate__backInLeft sidebar">
 				<br />
 				<div className="menu">
-					<a href="/">
+					<a href="/voobear">
 						<img
 							className="animate__animated animate__bounceInDown logo1"
 							src="/voobear/logo1.png"
@@ -37,7 +37,7 @@ function App() {
 					</a>
 				</div>
 				<div className="categories">
-					<a href="/">
+					<a href="/voobear">
 						<button className="active">
 							<i class="fa-solid fa-house"></i>
 							<p>Главная</p>
