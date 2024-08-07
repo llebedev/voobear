@@ -12,7 +12,7 @@ render(
 	() => (
 		<Router>
 			<Route path="/voobear/" component={App} />
-			<Route path="/video/:id/:video" component={videos} />
+			<Route path="/voobear/video/:id/:video" component={videos} />
 		</Router>
 	),
 	root
